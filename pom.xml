@@ -23,6 +23,43 @@
         <dropbox-core-sdk.version>5.4.4</dropbox-core-sdk.version>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com:dru-id/cloud-storage-spring-api.git</connection>
+        <developerConnection>scm:git:git@github.com:dru-id/cloud-storage-spring-api.git</developerConnection>
+        <url>https://github.com/dru-id/cloud-storage-spring-api</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <!--
+            <site>
+                <id>documentation</id>
+                <name>Documentation site</name>
+                <url></url>
+            </site>
+         -->
+        <repository>
+            <id>druid-repository</id>
+            <name>DruID Repository</name>
+            <url>https://nexus.dru-id.com/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>druid-snapshot-repository</id>
+            <name>DruID Snapshot Repository</name>
+            <url>https://nexus.dru-id.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <issueManagement>
+        <system>JIRA</system>
+        <url>https://dru-id.atlassian.net/browse/PULSE</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>jenkins</system>
+        <url>https://jenkins.dru-id.com</url>
+    </ciManagement>
+
     <modules>
         <module>cloud-storage-spring-java</module>
         <module>cloud-storage-spring-kotlin</module>
