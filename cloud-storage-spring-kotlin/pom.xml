@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>com.github.sevtech-dev</groupId>
 		<artifactId>cloud-storage-spring</artifactId>
-		<version>1.1.3</version>
+		<version>1.1.4-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>cloud-storage-spring-kotlin</artifactId>
-	<version>1.1.3</version>
+	<version>1.1.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>cloud-storage-spring-kotlin</name>
@@ -39,7 +39,7 @@
 		<url>https://github.com/migangqui/cloud-storage-spring-api</url>
 		<connection>scm:git:git@github.com:sevtech-dev/cloud-storage-spring-api.git</connection>
 		<developerConnection>scm:git:git@github.com:sevtech-dev/cloud-storage-spring-api.git</developerConnection>
-	  <tag>1.1.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<properties>
